@@ -1,0 +1,52 @@
+.material-symbols-outlined{
+    cursor: pointer;
+}
+
+#flexSwitchCheckDefault{
+    cursor: pointer;
+}
+
+#toggler{
+    cursor: default;
+}
+
+#summary{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: flex-end;
+    justify-content: space-between
+}
+
+#alert{
+    text-align: center;
+}
+
+.btn:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.tooltip-arrow {
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-color: transparent;
+    border-style: solid;
+}
+
+.tooltip .tooltip-arrow:before {
+    border-top-color: #7a7f81 !important;
+}
+
+.tooltip .tooltip-inner {
+    display: block;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    line-height: 1.7;
+    word-spacing:2px;
+    letter-spacing: 0.8px;
+    text-align: start;
+    background-color: #7a7f81;
+    color: white;
+}
